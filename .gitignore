@@ -1,0 +1,77 @@
+############################################################
+#  Общие правила для Python-проекта с Telegram-ботом
+############################################################
+
+# ───── чувствительные конфиги ─────
+.env
+config.py           # ключи и токены
+
+# ───── виртуальные окружения ─────
+.env/
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ───── byte-code / сборки Python ─────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ───── C-/Cython-расширения ─────
+*.so
+
+# ───── каталоги сборки/дистрибутивы ─────
+build/
+dist/
+downloads/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+develop-eggs/
+parts/
+sdist/
+
+# ───── PyInstaller artefacts ─────
+*.spec
+*.manifest
+
+# ───── отчёты тестов / покрытия ─────
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.hypothesis/
+.coverage
+coverage.xml
+*.cover
+nosetests.xml
+test-results.xml
+
+# ───── базы данных / дампы ─────
+*.db
+*.sqlite3
+
+# ───── логи и временные файлы ─────
+*.log
+*.tmp
+*.temp
+*~
+.DS_Store            # macOS
+
+# ───── IDE/редактор ─────
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ───── Jupyter ─────
+.ipynb_checkpoints/
+
+# ───── локальные settings.py, если появятся ─────
+local_settings.py
